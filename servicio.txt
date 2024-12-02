@@ -1,0 +1,1364 @@
+nohup: ignoring input
+
+> dashboard@1.0.0 dev
+> vite
+
+node:child_process:929
+    throw err;
+    ^
+
+<ref *1> Error: spawnSync /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild EAGAIN
+    at Object.spawnSync (node:internal/child_process:1124:20)
+    at spawnSync (node:child_process:876:24)
+    at Object.execFileSync (node:child_process:919:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -11,
+  code: 'EAGAIN',
+  syscall: 'spawnSync /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild',
+  path: '/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild',
+  spawnargs: [ '--service=0.19.12', '--ping' ],
+  error: [Circular *1],
+  status: null,
+  signal: null,
+  output: null,
+  pid: 0,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9469,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9458,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9447,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9436,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9425,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9414,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9403,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9392,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9381,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9370,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9359,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9348,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9337,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9326,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9315,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9304,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9293,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9282,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9271,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9260,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9249,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9238,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9227,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9216,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9205,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9194,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9183,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9172,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9161,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9150,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9139,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9128,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9117,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9106,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9095,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9084,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9071,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9060,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9049,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9038,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9027,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9016,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 9005,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8994,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8983,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8972,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8961,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8950,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8939,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8928,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8917,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8905,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8893,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8882,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+node:child_process:929
+    throw err;
+    ^
+
+Error: Command failed: /home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.19.12 --ping
+    at genericNodeError (node:internal/errors:956:15)
+    at wrappedFn (node:internal/errors:510:14)
+    at checkExecSyncError (node:child_process:890:11)
+    at Object.execFileSync (node:child_process:926:15)
+    at Object.<anonymous> (/home/glpi/Servicio/node_modules/@esbuild/linux-x64/bin/esbuild:221:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 8871,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v21.4.0
+failed to load config from /home/glpi/Servicio/vite.config.js
+error when starting dev server:
+Error: The service was stopped
+    at /home/glpi/Servicio/node_modules/esbuild/lib/main.js:1084:25
+    at responseCallbacks.<computed> (/home/glpi/Servicio/node_modules/esbuild/lib/main.js:704:9)
+    at Socket.afterClose (/home/glpi/Servicio/node_modules/esbuild/lib/main.js:694:28)
+    at Socket.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

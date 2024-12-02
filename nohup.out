@@ -1,0 +1,636 @@
+nohup: ignoring input
+
+> dashboard@1.0.0 dev
+> vite
+
+
+  VITE v5.1.1  ready in 362 ms
+
+  ➜  Local:   http://localhost:5180/
+  ➜  Network: http://10.10.1.27:5180/
+14:59:06 [vite] hmr update /src/pages/Turbo.jsx
+12:35:15 [vite] hmr update /src/pages/Turbo.jsx
+12:35:43 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx
+13:17:58 [vite] hmr update /src/components/Tabla.jsx
+14:30:36 [vite] hmr update /src/components/Tabla.jsx
+(node:20241) Warning: An error event has already been emitted on the socket. Please use the destroy method on the socket while handling a 'clientError' event.
+(Use `node --trace-warnings ...` to show where the warning was created)
+16:15:49 [vite] hmr update /src/components/NavBarNav.jsx
+16:16:39 [vite] hmr update /src/pages/404.jsx
+16:16:39 [vite] hmr update /src/pages/Dpf.jsx
+16:16:39 [vite] hmr update /src/pages/Garantia.jsx
+16:16:39 [vite] hmr update /src/pages/Home.jsx
+16:16:39 [vite] hmr update /src/pages/Turbo.jsx
+16:16:39 [vite] hmr update /src/pages/Vehicular.jsx
+16:17:04 [vite] hmr update /src/App.jsx
+16:17:04 [vite] hmr update /src/App.scss
+16:17:04 [vite] hmr update /src/index.css
+16:17:04 [vite] page reload src/main.jsx
+16:17:27 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+17:36:46 [vite] hmr update /src/components/NavBarNav.jsx
+10:38:24 [vite] hmr update /src/pages/Home.jsx
+10:54:58 [vite] hmr update /src/components/Tabla.jsx
+12:20:34 [vite] hmr update /src/components/Tabla.jsx
+12:46:47 [vite] hmr update /src/pages/Turbo.jsx
+12:58:30 [vite] hmr update /src/components/Tabla.jsx
+12:59:44 [vite] hmr update /src/pages/Turbo.jsx
+13:14:38 [vite] hmr update /src/components/Tabla.jsx
+14:33:37 [vite] hmr update /src/components/TablaVehicular.jsx
+11:35:18 [vite] hmr update /src/pages/Home.jsx
+11:53:14 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+16:29:38 [vite] hmr update /src/components/Tabla.jsx
+12:34:46 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+17:36:01 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+17:36:36 [vite] hmr update /src/pages/Home.jsx
+17:36:37 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+17:36:37 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+17:36:37 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+17:36:37 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+17:36:37 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+17:36:41 [vite] hmr update /src/pages/Turbo.jsx
+17:36:44 [vite] Pre-transform error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+17:36:44 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:36:51 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:08 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:09 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:10 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:10 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:10 [vite] Internal server error: Failed to resolve import "typeface-quicksand" from "src/pages/Home.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Home.jsx:1:7
+  8  |  
+  9  |  import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
+  10 |  import 'typeface-quicksand';
+     |          ^
+  11 |  import { Box, Container, Grid } from "@mui/material";
+  12 |  import Contador from "../components/Contador";
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 2)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+17:37:35 [vite] hmr update /src/App.jsx
+17:37:55 [vite] hmr update /src/components/Tabla.jsx
+17:38:03 [vite] hmr update /src/components/TablaVehicular.jsx
+17:58:04 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+17:59:08 [vite] hmr update /src/components/Tabla.jsx
+17:59:11 [vite] hmr update /src/components/NavBarNav.jsx
+17:59:13 [vite] hmr update /src/components/Contador.jsx
+17:59:14 [vite] hmr update /src/components/TablaVehicular.jsx
+18:00:13 [vite] hmr update /src/components/TablaVehicular.jsx
+18:00:24 [vite] hmr update /src/components/Contador.jsx
+8:44:05 [vite] hmr update /src/components/Contador.jsx
+8:44:07 [vite] hmr update /src/components/Tabla.jsx
+8:45:11 [vite] hmr update /src/components/Contador.jsx
+8:45:11 [vite] hmr update /src/components/NavBarNav.jsx
+8:45:11 [vite] hmr update /src/components/Tabla.jsx
+8:45:11 [vite] hmr update /src/components/TablaVehicular.jsx
+12:42:47 [vite] hmr update /src/pages/404.jsx
+12:42:47 [vite] hmr update /src/pages/AdrianS.jsx
+12:42:47 [vite] hmr update /src/pages/AlvaroR.jsx
+12:42:47 [vite] hmr update /src/pages/ArielS.jsx
+12:42:47 [vite] hmr update /src/pages/Diesel.jsx
+12:42:47 [vite] hmr update /src/pages/Dpf.jsx
+12:42:47 [vite] hmr update /src/pages/Garantia.jsx
+12:42:47 [vite] hmr update /src/pages/Home.jsx
+12:42:47 [vite] hmr update /src/pages/JuanR.jsx
+12:42:47 [vite] hmr update /src/pages/MiltonR.jsx
+12:42:47 [vite] hmr update /src/pages/PabloZ.jsx
+12:42:47 [vite] hmr update /src/pages/SergioP.jsx
+12:42:47 [vite] hmr update /src/pages/Turbo.jsx
+12:42:47 [vite] hmr update /src/pages/Vehicular.jsx
+12:42:49 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:42:50 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:44:25 [vite] hmr update /src/pages/Vehicular.jsx
+12:44:25 [vite] hmr update /src/pages/Turbo.jsx
+12:44:25 [vite] hmr update /src/pages/SergioP.jsx
+12:44:25 [vite] hmr update /src/pages/PabloZ.jsx
+12:44:25 [vite] hmr update /src/pages/MiltonR.jsx
+12:44:25 [vite] hmr update /src/pages/JuanR.jsx
+12:44:25 [vite] hmr update /src/pages/Home.jsx
+12:44:25 [vite] hmr update /src/pages/Garantia.jsx
+12:44:25 [vite] hmr update /src/pages/Dpf.jsx
+12:44:25 [vite] hmr update /src/pages/Diesel.jsx
+12:44:25 [vite] hmr update /src/pages/ArielS.jsx
+12:44:25 [vite] hmr update /src/pages/AlvaroR.jsx
+12:44:25 [vite] hmr update /src/pages/AdrianS.jsx
+12:44:25 [vite] hmr update /src/pages/404.jsx
+12:44:48 [vite] hmr update /src/pages/Home.jsx
+12:45:11 [vite] hmr update /src/pages/Turbo.jsx
+12:45:21 [vite] hmr update /src/pages/Diesel.jsx
+12:45:58 [vite] hmr update /src/pages/Vehicular.jsx
+12:45:58 [vite] hmr update /src/pages/Turbo.jsx
+12:45:58 [vite] hmr update /src/pages/SergioP.jsx
+12:45:58 [vite] hmr update /src/pages/PabloZ.jsx
+12:45:58 [vite] hmr update /src/pages/MiltonR.jsx
+12:45:58 [vite] hmr update /src/pages/JuanR.jsx
+12:45:58 [vite] hmr update /src/pages/Home.jsx
+12:45:58 [vite] hmr update /src/pages/Garantia.jsx
+12:45:58 [vite] hmr update /src/pages/Dpf.jsx
+12:45:58 [vite] hmr update /src/pages/Diesel.jsx
+12:45:58 [vite] hmr update /src/pages/ArielS.jsx
+12:45:58 [vite] hmr update /src/pages/AlvaroR.jsx
+12:45:58 [vite] hmr update /src/pages/AdrianS.jsx
+12:45:58 [vite] hmr update /src/pages/404.jsx
+12:46:40 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:46:40 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:47:09 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:47:09 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:47:09 [vite] hmr update /src/pages/404.jsx
+12:47:09 [vite] hmr update /src/pages/AdrianS.jsx
+12:47:09 [vite] hmr update /src/pages/AlvaroR.jsx
+12:47:09 [vite] hmr update /src/pages/ArielS.jsx
+12:47:09 [vite] hmr update /src/pages/Diesel.jsx
+12:47:09 [vite] hmr update /src/pages/Dpf.jsx
+12:47:09 [vite] hmr update /src/pages/Garantia.jsx
+12:47:09 [vite] hmr update /src/pages/Home.jsx
+12:47:09 [vite] hmr update /src/pages/JuanR.jsx
+12:47:09 [vite] hmr update /src/pages/MiltonR.jsx
+12:47:09 [vite] hmr update /src/pages/PabloZ.jsx
+12:47:09 [vite] hmr update /src/pages/SergioP.jsx
+12:47:09 [vite] hmr update /src/pages/Turbo.jsx
+12:47:09 [vite] hmr update /src/pages/Vehicular.jsx
+12:47:09 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+12:47:09 [vite] hmr update /src/components/Contador.jsx
+12:47:09 [vite] hmr update /src/components/NavBarNav.jsx
+12:47:09 [vite] hmr update /src/components/Tabla.jsx
+12:47:09 [vite] hmr update /src/components/TablaVehicular.jsx
+12:47:09 [vite] hmr update /src/assets/Cargando.jsx
+12:47:09 [vite] hmr update /src/assets/Error.jsx
+12:47:09 [vite] hmr update /src/components/NavBarNav.jsx
+12:47:09 [vite] page reload src/main.jsx
+12:47:09 [vite] hmr update /src/index.css
+12:47:09 [vite] hmr update /src/App.scss
+12:47:09 [vite] hmr update /src/App.jsx
+14:39:15 [vite] hmr update /src/components/Contador.jsx
+15:31:57 [vite] hmr update /src/pages/404.jsx
+15:31:57 [vite] hmr update /src/pages/AdrianS.jsx
+15:31:57 [vite] hmr update /src/pages/AlvaroR.jsx
+15:31:57 [vite] hmr update /src/pages/ArielS.jsx
+15:31:57 [vite] hmr update /src/pages/Diesel.jsx
+15:31:57 [vite] hmr update /src/pages/Dpf.jsx
+15:31:57 [vite] hmr update /src/pages/Garantia.jsx
+15:31:57 [vite] hmr update /src/pages/Home.jsx
+15:31:57 [vite] hmr update /src/pages/JuanR.jsx
+15:31:57 [vite] hmr update /src/pages/MiltonR.jsx
+15:31:57 [vite] hmr update /src/pages/PabloZ.jsx
+15:31:57 [vite] hmr update /src/pages/SergioP.jsx
+15:31:57 [vite] hmr update /src/pages/Turbo.jsx
+15:31:57 [vite] hmr update /src/pages/Vehicular.jsx
+15:32:20 [vite] hmr update /src/components/Contador.jsx
+15:32:20 [vite] hmr update /src/components/NavBarNav.jsx
+15:32:20 [vite] hmr update /src/components/Tabla.jsx
+15:32:20 [vite] hmr update /src/components/TablaVehicular.jsx
+15:39:11 [vite] hmr update /src/components/Contador.jsx
+15:39:11 [vite] hmr update /src/components/NavBarNav.jsx
+15:39:11 [vite] hmr update /src/components/Tabla.jsx
+15:39:11 [vite] hmr update /src/components/TablaVehicular.jsx
+15:39:16 [vite] hmr update /src/pages/404.jsx
+15:39:16 [vite] hmr update /src/pages/AdrianS.jsx
+15:39:16 [vite] hmr update /src/pages/AlvaroR.jsx
+15:39:16 [vite] hmr update /src/pages/ArielS.jsx
+15:39:16 [vite] hmr update /src/pages/Diesel.jsx
+15:39:16 [vite] hmr update /src/pages/Dpf.jsx
+15:39:16 [vite] hmr update /src/pages/Garantia.jsx
+15:39:16 [vite] hmr update /src/pages/Home.jsx
+15:39:16 [vite] hmr update /src/pages/JuanR.jsx
+15:39:16 [vite] hmr update /src/pages/MiltonR.jsx
+15:39:16 [vite] hmr update /src/pages/PabloZ.jsx
+15:39:16 [vite] hmr update /src/pages/SergioP.jsx
+15:39:16 [vite] hmr update /src/pages/Turbo.jsx
+15:39:16 [vite] hmr update /src/pages/Vehicular.jsx
+16:20:30 [vite] hmr update /src/pages/Dpf.jsx
+16:22:37 [vite] hmr update /src/pages/404.jsx
+16:22:37 [vite] hmr update /src/pages/AdrianS.jsx
+16:22:37 [vite] hmr update /src/pages/AlvaroR.jsx
+16:22:37 [vite] hmr update /src/pages/ArielS.jsx
+16:22:37 [vite] hmr update /src/pages/Diesel.jsx
+16:22:37 [vite] hmr update /src/pages/Dpf.jsx
+16:22:37 [vite] hmr update /src/pages/Garantia.jsx
+16:22:37 [vite] hmr update /src/pages/Home.jsx
+16:22:37 [vite] hmr update /src/pages/JuanR.jsx
+16:22:37 [vite] hmr update /src/pages/MiltonR.jsx
+16:22:37 [vite] hmr update /src/pages/PabloZ.jsx
+16:22:37 [vite] hmr update /src/pages/SergioP.jsx
+16:22:37 [vite] hmr update /src/pages/Turbo.jsx
+16:22:37 [vite] hmr update /src/pages/Vehicular.jsx
+10:37:56 [vite] hmr update /src/components/TablaVehicular.jsx
+17:08:17 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+17:09:24 [vite] hmr update /src/pages/404.jsx
+17:09:24 [vite] hmr update /src/pages/AdrianS.jsx
+17:09:24 [vite] hmr update /src/pages/AlvaroR.jsx
+17:09:24 [vite] hmr update /src/pages/ArielS.jsx
+17:09:24 [vite] hmr update /src/pages/Diesel.jsx
+17:09:24 [vite] hmr update /src/pages/Dpf.jsx
+17:09:24 [vite] hmr update /src/pages/Garantia.jsx
+17:09:24 [vite] hmr update /src/pages/Home.jsx
+17:09:24 [vite] hmr update /src/pages/JuanR.jsx
+17:09:24 [vite] hmr update /src/pages/MiltonR.jsx
+17:09:24 [vite] hmr update /src/pages/PabloZ.jsx
+17:09:24 [vite] hmr update /src/pages/SergioP.jsx
+17:09:24 [vite] hmr update /src/pages/Turbo.jsx
+17:09:24 [vite] hmr update /src/pages/Vehicular.jsx
+9:14:27 [vite] hmr update /src/pages/Home.jsx, /src/pages/Turbo.jsx, /src/pages/Dpf.jsx, /src/pages/Vehicular.jsx, /src/pages/Garantia.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/MiltonR.jsx, /src/pages/PabloZ.jsx, /src/pages/SergioP.jsx
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+9:39:20 [vite] page reload index.html
+Re-optimizing dependencies because vite config has changed
+Re-optimizing dependencies because vite config has changed
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:21 [vite] server restarted.
+9:39:42 [vite] Pre-transform error: Failed to resolve import "../components/TablaTurbo" from "src/pages/Garantia.jsx". Does the file exist?
+9:39:43 [vite] Internal server error: Failed to resolve import "../components/TablaTurbo" from "src/pages/Garantia.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx:8:23
+  15 |  import { diferencia } from "../utils/TiemposOt";
+  16 |  import { infoOTGarantia } from "../hooks/useFetch";
+  17 |  import TablaTurbo from "../components/TablaTurbo";
+     |                          ^
+  18 |  const Garantia = ()=>{
+  19 |      const tiempoMedioAtrasadoeasignacion = 780;
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 9)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+9:39:43 [vite] Internal server error: Failed to resolve import "../components/TablaTurbo" from "src/pages/Garantia.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx:8:23
+  15 |  import { diferencia } from "../utils/TiemposOt";
+  16 |  import { infoOTGarantia } from "../hooks/useFetch";
+  17 |  import TablaTurbo from "../components/TablaTurbo";
+     |                          ^
+  18 |  const Garantia = ()=>{
+  19 |      const tiempoMedioAtrasadoeasignacion = 780;
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 9)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+9:39:45 [vite] Internal server error: Failed to resolve import "../components/TablaTurbo" from "src/pages/Garantia.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx:8:23
+  15 |  import { diferencia } from "../utils/TiemposOt";
+  16 |  import { infoOTGarantia } from "../hooks/useFetch";
+  17 |  import TablaTurbo from "../components/TablaTurbo";
+     |                          ^
+  18 |  const Garantia = ()=>{
+  19 |      const tiempoMedioAtrasadoeasignacion = 780;
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 9)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+9:39:47 [vite] Internal server error: Failed to resolve import "../components/TablaTurbo" from "src/pages/Garantia.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx:8:23
+  15 |  import { diferencia } from "../utils/TiemposOt";
+  16 |  import { infoOTGarantia } from "../hooks/useFetch";
+  17 |  import TablaTurbo from "../components/TablaTurbo";
+     |                          ^
+  18 |  const Garantia = ()=>{
+  19 |      const tiempoMedioAtrasadoeasignacion = 780;
+      at formatError (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50510:46)
+      at TransformContext.error (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50504:19)
+      at normalizeUrl (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65561:33)
+      at async file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65716:47
+      at async Promise.all (index 9)
+      at async TransformContext.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:65637:13)
+      at async Object.transform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:50819:30)
+      at async loadAndTransform (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:53592:29)
+      at async viteTransformMiddleware (file:///home/glpi/Servicio/node_modules/vite/dist/node/chunks/dep-94_H5fT6.js:63376:32)
+9:40:19 [vite] hmr update /src/App.jsx
+9:40:19 [vite] hmr update /src/App.jsx
+9:40:19 [vite] Pre-transform error: 
+  [31mx[0m the name `Tabla` is defined multiple times
+    ,-[[36;1;4m/home/glpi/Servicio/src/pages/Garantia.jsx[0m:1:1]
+ [2m 1[0m | import { Box, Container, Grid } from "@mui/material";
+ [2m 2[0m | import Contador from "../components/Contador";
+ [2m 3[0m | import Tabla from "../components/Tabla";
+    : [31;1m       ^^|^^[0m
+    :          [31;1m`-- [31;1mprevious definition of `Tabla` here[0m[0m
+ [2m 4[0m | import Cargando from "../assets/Cargando";
+ [2m 5[0m | import { filtroGarantiaF, filtroGarantiaC } from "../utils/Limpieza";
+ [2m 6[0m | import { diferencia } from "../utils/TiemposOt";
+ [2m 7[0m | import { infoOTGarantia } from "../hooks/useFetch";
+ [2m 8[0m | import Tabla from "../components/Tabla";
+    : [33;1m       ^^|^^[0m
+    :          [33;1m`-- [33;1m`Tabla` redefined here[0m[0m
+ [2m 9[0m | 
+ [2m10[0m | const Garantia = () => {
+ [2m11[0m |   const tiempoMedioAtrasadoeasignacion = 780;
+    `----
+
+9:40:19 [vite] Internal server error: 
+  [31mx[0m the name `Tabla` is defined multiple times
+    ,-[[36;1;4m/home/glpi/Servicio/src/pages/Garantia.jsx[0m:1:1]
+ [2m 1[0m | import { Box, Container, Grid } from "@mui/material";
+ [2m 2[0m | import Contador from "../components/Contador";
+ [2m 3[0m | import Tabla from "../components/Tabla";
+    : [31;1m       ^^|^^[0m
+    :          [31;1m`-- [31;1mprevious definition of `Tabla` here[0m[0m
+ [2m 4[0m | import Cargando from "../assets/Cargando";
+ [2m 5[0m | import { filtroGarantiaF, filtroGarantiaC } from "../utils/Limpieza";
+ [2m 6[0m | import { diferencia } from "../utils/TiemposOt";
+ [2m 7[0m | import { infoOTGarantia } from "../hooks/useFetch";
+ [2m 8[0m | import Tabla from "../components/Tabla";
+    : [33;1m       ^^|^^[0m
+    :          [33;1m`-- [33;1m`Tabla` redefined here[0m[0m
+ [2m 9[0m | 
+ [2m10[0m | const Garantia = () => {
+ [2m11[0m |   const tiempoMedioAtrasadoeasignacion = 780;
+    `----
+
+  Plugin: vite:react-swc
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx
+  
+9:40:20 [vite] Internal server error: 
+  [31mx[0m the name `Tabla` is defined multiple times
+    ,-[[36;1;4m/home/glpi/Servicio/src/pages/Garantia.jsx[0m:1:1]
+ [2m 1[0m | import { Box, Container, Grid } from "@mui/material";
+ [2m 2[0m | import Contador from "../components/Contador";
+ [2m 3[0m | import Tabla from "../components/Tabla";
+    : [31;1m       ^^|^^[0m
+    :          [31;1m`-- [31;1mprevious definition of `Tabla` here[0m[0m
+ [2m 4[0m | import Cargando from "../assets/Cargando";
+ [2m 5[0m | import { filtroGarantiaF, filtroGarantiaC } from "../utils/Limpieza";
+ [2m 6[0m | import { diferencia } from "../utils/TiemposOt";
+ [2m 7[0m | import { infoOTGarantia } from "../hooks/useFetch";
+ [2m 8[0m | import Tabla from "../components/Tabla";
+    : [33;1m       ^^|^^[0m
+    :          [33;1m`-- [33;1m`Tabla` redefined here[0m[0m
+ [2m 9[0m | 
+ [2m10[0m | const Garantia = () => {
+ [2m11[0m |   const tiempoMedioAtrasadoeasignacion = 780;
+    `----
+
+  Plugin: vite:react-swc
+  File: /home/glpi/Servicio/src/pages/Garantia.jsx
+  
+9:40:28 [vite] hmr update /src/App.jsx
+9:40:44 [vite] hmr update /src/pages/Vehicular.jsx
+9:40:45 [vite] hmr update /src/pages/Turbo.jsx
+9:40:45 [vite] hmr update /src/pages/SergioP.jsx
+9:40:45 [vite] hmr update /src/pages/PabloZ.jsx
+9:40:45 [vite] hmr update /src/pages/MiltonR.jsx
+9:40:45 [vite] hmr update /src/pages/JuanR.jsx
+9:40:45 [vite] hmr update /src/pages/Inyectores.jsx
+9:40:45 [vite] hmr update /src/pages/Home.jsx
+9:40:45 [vite] hmr update /src/pages/Garantia.jsx
+9:40:45 [vite] hmr update /src/pages/Embalaje.jsx
+9:40:45 [vite] hmr update /src/pages/Dpf.jsx
+9:40:45 [vite] hmr update /src/pages/Bombas.jsx
+9:40:45 [vite] hmr update /src/pages/ArielS.jsx
+9:40:45 [vite] hmr update /src/pages/AlvaroR.jsx
+9:40:45 [vite] hmr update /src/pages/AdrianS.jsx
+9:40:45 [vite] hmr update /src/pages/404.jsx
+9:42:04 [vite] hmr update /src/pages/Home.jsx, /src/pages/Embalaje.jsx, /src/pages/Dpf.jsx, /src/pages/Inyectores.jsx, /src/pages/Bombas.jsx, /src/pages/Turbo.jsx, /src/pages/Vehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/SergioP.jsx, /src/pages/PabloZ.jsx, /src/pages/MiltonR.jsx, /src/pages/Garantia.jsx
+9:42:05 [vite] hmr update /src/pages/Home.jsx, /src/pages/Embalaje.jsx, /src/pages/Dpf.jsx, /src/pages/Inyectores.jsx, /src/pages/Bombas.jsx, /src/pages/Turbo.jsx, /src/pages/Vehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/SergioP.jsx, /src/pages/PabloZ.jsx, /src/pages/MiltonR.jsx, /src/components/Tabla.jsx, /src/components/TablaVehicular.jsx, /src/pages/Garantia.jsx, /src/components/TablaContador.jsx
+9:42:05 [vite] hmr update /src/components/Contador.jsx
+9:42:05 [vite] hmr update /src/components/NavBarNav.jsx
+9:42:05 [vite] hmr update /src/components/Tabla.jsx
+9:42:05 [vite] hmr update /src/components/TablaContador.jsx
+9:42:05 [vite] hmr update /src/components/TablaVehicular.jsx
+9:42:05 [vite] hmr update /src/pages/404.jsx
+9:42:05 [vite] hmr update /src/pages/AdrianS.jsx
+9:42:05 [vite] hmr update /src/pages/AlvaroR.jsx
+9:42:05 [vite] hmr update /src/pages/ArielS.jsx
+9:42:05 [vite] hmr update /src/pages/Bombas.jsx
+9:42:05 [vite] hmr update /src/pages/Dpf.jsx
+9:42:05 [vite] hmr update /src/pages/Embalaje.jsx
+9:42:05 [vite] hmr update /src/pages/Garantia.jsx
+9:42:05 [vite] hmr update /src/pages/Home.jsx
+9:42:05 [vite] hmr update /src/pages/Inyectores.jsx
+9:42:05 [vite] hmr update /src/pages/JuanR.jsx
+9:42:05 [vite] hmr update /src/pages/MiltonR.jsx
+9:42:05 [vite] hmr update /src/pages/PabloZ.jsx
+9:42:05 [vite] hmr update /src/pages/SergioP.jsx
+9:42:05 [vite] hmr update /src/pages/Turbo.jsx
+9:42:05 [vite] hmr update /src/pages/Vehicular.jsx
+9:42:05 [vite] hmr update /src/pages/Home.jsx, /src/pages/Embalaje.jsx, /src/pages/Dpf.jsx, /src/pages/Inyectores.jsx, /src/pages/Bombas.jsx, /src/pages/Turbo.jsx, /src/pages/Vehicular.jsx, /src/pages/AdrianS.jsx, /src/pages/AlvaroR.jsx, /src/pages/ArielS.jsx, /src/pages/JuanR.jsx, /src/pages/SergioP.jsx, /src/pages/PabloZ.jsx, /src/pages/MiltonR.jsx, /src/pages/Garantia.jsx
+9:42:05 [vite] hmr update /src/assets/Cargando.jsx
+9:42:05 [vite] hmr update /src/assets/Error.jsx
+9:42:05 [vite] hmr update /src/components/NavBarNav.jsx
+9:42:05 [vite] hmr update /src/App.jsx
+9:42:05 [vite] hmr update /src/index.css
+9:42:05 [vite] hmr update /src/App.scss
+9:42:05 [vite] page reload src/main.jsx
+9:06:34 [vite] hmr update /src/pages/Turbo.jsx
+9:06:34 [vite] hmr update /src/pages/Turbo.jsx
+
+> dashboard@1.0.0 dev
+> vite
+
+Re-optimizing dependencies because vite config has changed
+
+  VITE v5.2.11  ready in 1206 ms
+
+  ➜  Local:   http://localhost:5180/
+  ➜  Network: http://10.10.1.27:5180/
